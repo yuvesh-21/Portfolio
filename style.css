@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+/* Centering the Image */
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Navigation Bar */
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav .btn {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+nav .btn:hover {
+    background-color: #555;
+}
+
+/* Sections */
+.box3 {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+.box3 p, .box3 ul, .box3 ol {
+    color: #555;
+}
+
+/* Skills List */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #e7f3e7;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Projects List */
+ol {
+    padding-left: 20px;
+}
+
+ol li {
+    margin: 5px 0;
+}
+
+/* Contact Form */
+.formm {
+    display: flex;
+    flex-direction: column;
+}
+
+.formm label {
+    margin: 10px 0 5px;
+}
+
+.formm input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formm button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formm button:hover {
+    background-color: #555;
+}
